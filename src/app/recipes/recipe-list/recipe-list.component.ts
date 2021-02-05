@@ -9,7 +9,8 @@ import { RecipeModel } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
 
   recipes: RecipeModel[] = [
-    new RecipeModel('A test', 'Test Description', 'https://picsum.photos/id/237/200/300')
+    new RecipeModel('Title item', 'Test Description just to fill up space and save face.', 'https://picsum.photos/200'),
+    new RecipeModel("African fufu", "A description is always necessary to fill up space some more contents and words", "https://picsum.photos/200")
   ];
 
   constructor() { }
